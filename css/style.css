@@ -1,0 +1,72 @@
+html,
+body {
+margin:0;
+display: block;
+background-color: #1e69b0;
+color: black;
+display: flex;
+justify-content: center;
+}
+#Win{
+    color: #0d26eb;
+    width: 200px;
+    height: 150px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+    display: none;
+    border-radius: 5px;  
+}
+#Win_circle{
+    color: #0d26eb;
+    width: 200px;
+    height: 150px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+    display: none; 
+    border-radius: 5px;  
+}
+#game{
+     width: 250px;
+     height: 250px;
+     background: linear-gradient(114deg, blue, pink);
+     margin: auto;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     position: absolute;
+}
+.block{
+      width: 83px;
+      height: 83px;
+      float: left;
+      border: 1px solid white;
+      box-sizing: border-box;
+      line-height: 50px;
+      text-align: center;
+      font-size: 50px;
+      text-transform: uppercase;
+      padding: 15px 0px 0px 0px;
+}
+
+
+#reload {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	width: 0;
+	color: #44ff3b;
+      cursor: pointer;
+      margin: 270px 0px 0px 80px;
+      font-size: 20px;
+}
